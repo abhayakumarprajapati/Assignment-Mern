@@ -1,0 +1,10 @@
+{
+    "installCommand": "npm install --force",                 
+
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}
